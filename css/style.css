@@ -3106,7 +3106,7 @@ body {
   padding: 30px 40px;
   gap: 20px;
   border-radius: 30px;
-  background: linear-gradient(90deg, #bf3185, #edd2d9);
+  background: linear-gradient(90deg, #a72563, #edd2d9);
 }
 
 .review__info-title {
@@ -3187,7 +3187,7 @@ body {
     padding: 6vw 4vw;
     gap: 8vw;
     border-radius: 5vw;
-    background: linear-gradient(180deg, #bf3185, #c0a1a9);
+    background: linear-gradient(180deg, #a72563, #c0a1a9);
   }
   .review__info-title {
     font-size: 8vw;
