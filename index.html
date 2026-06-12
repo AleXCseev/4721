@@ -1,0 +1,1118 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="libs/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="libs/owl.carousel.min.css" />
+    <link rel="stylesheet" href="libs/animations.css" />
+    <link rel="stylesheet" href="libs/jquery.raty.css" />
+    <link rel="stylesheet" href="libs/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Жіночі сандалії та спортивні костюми ві бренду</title>
+  </head>
+  <body data-path="{{ $path }}">
+    <div class="site__wrapper">
+      <header class="header__section">
+        <!-- <img src="img/decor.png" alt="" class="header__decor"> -->
+        <div class="container">
+          <div class="header__section-wrapper">
+            <div class="header__content">
+              <p class="header__tag">ФІНАЛЬНИЙ</p>
+              <h1 class="header__title">
+                РОЗПРОДАЖ
+                <span> СКЛАДУ </span>
+              </h1>
+              <div class="header__block">
+               <div class="header__block-column">
+                  <img src="img/header-img-1.jpg" alt="" class="header__img header__img-1">
+                  <img src="img/header-img-2.jpg" alt="" class="header__img header__img-2">
+               </div>
+               <div class="header__block-column">
+                  <img src="img/header-img-3.jpg" alt="" class="header__img header__img-3">
+                  <img src="img/header-img-4.jpg" alt="" class="header__img header__img-4">
+                  <img src="img/header-img-5.jpg" alt="" class="header__img header__img-5">
+               </div>
+              </div>
+              <div class="header__item">
+                <div class="header__item-icon">
+                  <img src="img/header-icon-3.png" alt="" />
+                </div>
+                <span class="header__item-text">Брендове взуття та одяг</span>
+              </div>
+              <div class="header__item">
+                <div class="header__item-icon">
+                  <img src="img/header-icon-4.png" alt="" />
+                </div>
+                <span class="header__item-text">Останні моделі зі складу</span>
+              </div>
+              <div class="header__discount"> <span>до</span> -50%</div>
+              <div class="header__price-wrapper">
+                <div class="header__price">
+                  <div class="price">
+                    <span class="new__price"> 1234 uah </span>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >1234 uah</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <a href="#card" class="order__btn">
+                  <span>ПЕРЕГЛЯНУТИ КАТАЛОГ</span>
+                </a>
+                <p class="header__date">
+                  <img src="img/clock.png" alt="">
+                  Обмежена кількість товару
+               </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="card__section">
+        <img src="img/decor.png" alt="" class="card__decor" />
+        <div class="container">
+          <div class="card__section-wrapper">
+            <div class="card card__1" id="card">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">Sandals white</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1117]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1117]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1117]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card-boot-1.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/1/1.jpg" data-fancybox="card-1">
+                      <img src="img/card/1/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/1/2.jpg" data-fancybox="card-1">
+                      <img src="img/card/1/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/1/3.jpg" data-fancybox="card-1">
+                      <img src="img/card/1/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/1/4.jpg" data-fancybox="card-1">
+                      <img src="img/card/1/4.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/1/5.jpg" data-fancybox="card-1">
+                      <img src="img/card/1/5.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/1/6.jpg" data-fancybox="card-1">
+                      <img src="img/card/1/6.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночі сандалії <br />
+                  Сезон: Літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: Шкіра, текстиль <br />
+                  Матеріал підошви: Гума <br />
+                  Вид товару: Сандалі <br />
+                  Стиль: Повсякденний (casual)
+                </p>
+                <form class="card__form" name="form1" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="36">36 (23 cм)</option>
+                      <option value="37">37 (23,5 cм)</option>
+                      <option value="38">38 (24,5 cм)</option>
+                      <option value="39">39 (25 cм)</option>
+                      <option value="40">40 (25,5 cм)</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1117]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="card card__4">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">Sandals Black</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1118]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1118]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1117]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card-boot-4.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/4/1.jpg" data-fancybox="card-4">
+                      <img src="img/card/4/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/4/2.jpg" data-fancybox="card-4">
+                      <img src="img/card/4/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/4/3.jpg" data-fancybox="card-4">
+                      <img src="img/card/4/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/4/4.jpg" data-fancybox="card-4">
+                      <img src="img/card/4/4.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/4/5.jpg" data-fancybox="card-4">
+                      <img src="img/card/4/5.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/4/6.jpg" data-fancybox="card-4">
+                      <img src="img/card/4/6.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночі сандалії <br />
+                  Сезон: Літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: Шкіра, текстиль <br />
+                  Матеріал підошви: Гума <br />
+                  Вид товару: Сандалі <br />
+                  Стиль: Повсякденний (casual)
+                </p>
+                <form class="card__form" name="form2" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="36">36 (23 cм)</option>
+                      <option value="37">37 (23,5 cм)</option>
+                      <option value="38">38 (24,5 cм)</option>
+                      <option value="39">39 (25 cм)</option>
+                      <option value="40">40 (25,5 cм)</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1118]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+
+            <div class="card card__5 card__change">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">LOUNGEWEAR BLACK</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[779]['price'] }} {{ $products[779]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price">{{ $products[779]['price'] * 2 }} {{ $products[779]['currency'] }}</span>
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[779]['currency'] }}</span>
+                </p>
+                <div class="card__block card__black">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card/black/1.jpg" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/black/2.jpg" data-fancybox="card-10">
+                      <img src="img/card/black/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/black/3.jpg" data-fancybox="card-10">
+                      <img src="img/card/black/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/black/4.jpg" data-fancybox="card-10">
+                      <img src="img/card/black/4.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="card__block card__violet" style="display: none">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card/violet/1.jpg" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/violet/2.jpg" data-fancybox="card-11">
+                      <img src="img/card/violet/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/violet/3.jpg" data-fancybox="card-11">
+                      <img src="img/card/violet/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/violet/4.jpg" data-fancybox="card-11">
+                      <img src="img/card/violet/4.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночий костюм <br />
+                  Сезон: Весна-осінь <br />
+                  Матеріал: Велюр <br />
+                  Вид товару: Костюм <br />
+                  Стиль: Повсякденний (casual)
+                </p>
+                <div class="card__color">
+                  <span>Колір:</span>
+                  <div class="card__color-btns">
+                    <button
+                      type="button"
+                      data-title="LOUNGEWEAR BLACK"
+                      data-color="black"
+                      data-id="{{ $products[779]['id'] }}"
+                      data-price="{{ $products[779]['price'] }}"
+                      data-currency="{{ $products[779]['currency'] }}"
+                      class="card__color-btn black active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-title="LOUNGEWEAR VIOLET"
+                      data-color="violet"
+                      data-id="{{ $products[1148]['id'] }}"
+                      data-price="{{ $products[1148]['price'] }}"
+                      data-currency="{{ $products[1148]['currency'] }}"
+                      class="card__color-btn violet"
+                    ></button>
+                  </div>
+                </div>
+                <form class="card__form" name="form3" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select size">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                      <option value="XXL">XXL</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[779]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+
+            <div class="card card__5">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">Sweet Suit relaxed 5</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1120]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1120]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1117]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card-boot-5.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/5/1.jpg" data-fancybox="card-5">
+                      <img src="img/card/5/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/5/2.jpg" data-fancybox="card-5">
+                      <img src="img/card/5/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/5/3.jpg" data-fancybox="card-5">
+                      <img src="img/card/5/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/5/4.jpg" data-fancybox="card-5">
+                      <img src="img/card/5/4.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/5/5.jpg" data-fancybox="card-5">
+                      <img src="img/card/5/5.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/5/6.jpg" data-fancybox="card-5">
+                      <img src="img/card/5/6.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночий костюм <br />
+                  Сезон: Літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: 95% бавовна, 5% еластан <br />
+                  Колір: Рожевий <br />
+                  Вид товару: Костюм <br />
+                  Стиль: Оверсайз
+                </p>
+                <form class="card__form" name="form4" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1120]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="card card__5">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">Summer Sweet Suit</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1119]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1119]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1117]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card-boot-6.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/6/1.jpg" data-fancybox="card-6">
+                      <img src="img/card/6/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/6/2.jpg" data-fancybox="card-6">
+                      <img src="img/card/6/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/6/3.jpg" data-fancybox="card-6">
+                      <img src="img/card/6/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/6/4.jpg" data-fancybox="card-6">
+                      <img src="img/card/6/4.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/6/5.jpg" data-fancybox="card-6">
+                      <img src="img/card/6/5.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/6/6.jpg" data-fancybox="card-6">
+                      <img src="img/card/6/6.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночий костюм <br />
+                  Сезон: Літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: 95% бавовна, 5% еластан <br />
+                  Колір: Бежевий <br />
+                  Вид товару: Костюм <br />
+                  Стиль: Оверсайз
+                </p>
+                <form class="card__form" name="form5" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1119]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="card card__7">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">Жіночий топ</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1122]['price'] }} {{ $products[1122]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1122]['price'] * 2 }} {{ $products[1122]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1122]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card/7/7.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/7/1.jpg" data-fancybox="card-7">
+                      <img src="img/card/7/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/7/2.jpg" data-fancybox="card-7">
+                      <img src="img/card/7/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/7/3.jpg" data-fancybox="card-7">
+                      <img src="img/card/7/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/7/4.jpg" data-fancybox="card-7">
+                      <img src="img/card/7/4.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночий топ <br />
+                  Сезон: Літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: 86% поліестер 14% еластан <br />
+                  Колір: Білий
+                </p>
+                <form class="card__form" name="form6" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1122]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="card card__2">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">SUEDE PINK</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1098]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1098]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1117]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card-boot-2.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/2/1.jpg" data-fancybox="card-2">
+                      <img src="img/card/2/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/2/2.jpg" data-fancybox="card-2">
+                      <img src="img/card/2/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/2/3.jpg" data-fancybox="card-2">
+                      <img src="img/card/2/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/2/4.jpg" data-fancybox="card-2">
+                      <img src="img/card/2/4.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/2/5.jpg" data-fancybox="card-2">
+                      <img src="img/card/2/5.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/2/6.jpg" data-fancybox="card-2">
+                      <img src="img/card/2/6.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночі снікерси <br />
+                  Сезон: Весна-літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: Натуральна шкіра та замша <br />
+                  Матеріал підошви: Гума <br />
+                  Вид товару: Снікерси <br />
+                  Стиль: Повсякденний (casual)
+                </p>
+                <form class="card__form" name="form7" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="36">36 (23,5 cм)</option>
+                      <option value="37">37 (24 cм)</option>
+                      <option value="38">38 (24,5 cм)</option>
+                      <option value="39">39 (25,5 cм)</option>
+                      <option value="40">40 (26 cм)</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1098]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="card card__3">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">SUEDE WHITE</h3>
+                  <div class="card__rating">
+                    <span>5.0</span>
+                    <div class="rating">
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                      <img src="img/star.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[1099]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[1099]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <p class="card__info">
+                  На другий товар додаткова знижка <span>200{{ $products[1117]['currency'] }}</span>
+                </p>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo.png" alt="" class="card__logo"> -->
+                    <img src="img/card-boot-3.png" alt="" class="card__boot" />
+                  </div>
+                  <div class="card__photos">
+                    <a class="card__photo" href="img/card/3/1.jpg" data-fancybox="card-3">
+                      <img src="img/card/3/1.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/3/2.jpg" data-fancybox="card-3">
+                      <img src="img/card/3/2.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/3/3.jpg" data-fancybox="card-3">
+                      <img src="img/card/3/3.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/3/4.jpg" data-fancybox="card-3">
+                      <img src="img/card/3/4.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/3/5.jpg" data-fancybox="card-3">
+                      <img src="img/card/3/5.jpg" alt="" />
+                    </a>
+                    <a class="card__photo" href="img/card/3/6.jpg" data-fancybox="card-3">
+                      <img src="img/card/3/6.jpg" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Тип: Жіночі снікерси <br />
+                  Сезон: Весна-літо
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <br />
+                  Матеріал: Натуральна шкіра та замша <br />
+                  Матеріал підошви: Гума <br />
+                  Вид товару: Снікерси <br />
+                  Стиль: Повсякденний (casual)
+                </p>
+                <form class="card__form" name="form8" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <div class="input__wrapper input__size">
+                    <select name="" id="" class="input select">
+                      <option value="36">36 (23,5 cм)</option>
+                      <option value="37">37 (24 cм)</option>
+                      <option value="38">38 (24,5 cм)</option>
+                      <option value="39">39 (25,5 cм)</option>
+                      <option value="40">40 (26 cм)</option>
+                    </select>
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[1099]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="card sprey">
+              <div class="card__content">
+                <div class="card__top">
+                  <h3 class="card__title">Універсальний спрей</h3>
+                </div>
+                <div class="card__price">
+                  <div class="price">
+                    <span class="new__price"> {{ $products[133]['price'] }} {{ $products[1117]['currency'] }} </span>
+                    <div class="discount">50%</div>
+                    <p class="old__price-text">
+                      Стара ціна
+                      <span class="old__price"
+                        >{{ $products[133]['price'] * 2 }} {{ $products[1117]['currency'] }}</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="card__block">
+                  <div class="card__block-wrapper">
+                    <!-- <img src="img/card-logo-2.png" alt="" class="card__logo"> -->
+                    <img src="img/sprey.png" alt="" class="card__boot" />
+                  </div>
+                </div>
+                <p class="card__text">
+                  Універсальний захисний спрей, який допомагає зберегти взуття та аксесуари сухими та без плям.
+                  Підходить для взуття з гладкої шкіри, замші, нубуку та тканини, пройшов тестові випробування на шкірі
+                  та оздоблювальних матеріалах.
+                  <br />
+                  Об'єм: 100 мл; колір нейтральний.
+                </p>
+                <form class="card__form" name="form9" action="{{ $action }}" method="POST">
+                  <div class="input__wrapper input__name">
+                    <input type="text" placeholder="Ім’я" required class="input" name="name" />
+                  </div>
+                  <div class="input__wrapper input__phone">
+                    <input type="tel" placeholder="Телефон" required class="input" name="phone" />
+                  </div>
+                  <button class="order__btn order__submit">Замовити</button>
+                  <p class="header__date">Акція триватиме до <span class="date">20.06.25</span></p>
+                  <input name="split_landing_id" type="hidden" value="{{ $split_details_id }}" />
+                  <input name="products" type="hidden" value="{{ $products[133]['id'] }}" />
+                  <input name="comment" type="hidden" value="" />
+                  <input name="geo" type="hidden" value="{{ $geo }}" />
+                  <input name="stream" type="hidden" value="{{ $stream_id }}" />
+                </form>
+              </div>
+            </div>
+            <div class="delivery">
+              <div class="delivery__icon">
+                <img src="img/delivery-logo.jpg" alt="" />
+              </div>
+              <p class="delivery__text">
+                Доставка "Новою Поштою" <br />
+                протягом 1-3 днів. Оплата <br />
+                після огляду товару.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="review__section">
+        <img src="img/decor.png" alt="" class="review__decor" />
+        <div class="container">
+          <div class="review__section-wrapper">
+            <h2 class="review__section-title">Відгуки наших клієнтів</h2>
+            <div class="review__slider owl-carousel">
+              <div class="review">
+                <div class="review__top">
+                  <p class="review__name">Олена</p>
+                  <div class="rating">
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star-half.png" alt="" />
+                  </div>
+                </div>
+                <div class="review__wrapper">
+                  <p class="review__text">
+                    Замовила білі — ідеально пасують до всього! Дуже зручні, ніде не тиснуть, ніби створені для міста.
+                    Ще й рожевий костюмчик! Посилка прийшла швидко, все підійшло. Дуже дякую!
+                  </p>
+                  <div class="review__bottom">
+                    <img src="img/cart.png" alt="" class="review__cart" />
+                    <p class="review__bottom-text">Відгук від покупця</p>
+                    <img src="img/quote.png" alt="" class="review__quote" />
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review__top">
+                  <p class="review__name">Ірина</p>
+                  <div class="rating">
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                  </div>
+                </div>
+                <div class="review__wrapper">
+                  <p class="review__text">
+                    Побачила знижку на другу пару — і взяла одразу чорні й білі. Не шкодую ні на мить! Тут усе
+                    продумано.
+                  </p>
+                  <div class="review__bottom">
+                    <img src="img/cart.png" alt="" class="review__cart" />
+                    <p class="review__bottom-text">Відгук від покупця</p>
+                    <img src="img/quote.png" alt="" class="review__quote" />
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review__top">
+                  <p class="review__name">Софія</p>
+                  <div class="rating">
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star-half.png" alt="" />
+                  </div>
+                </div>
+                <div class="review__wrapper">
+                  <p class="review__text">
+                    Не планувала брати дві, але на знижку таки піддалася :) В чорному — мій фаворит, а білі — для літніх
+                    образів.
+                  </p>
+                  <div class="review__bottom">
+                    <img src="img/cart.png" alt="" class="review__cart" />
+                    <p class="review__bottom-text">Відгук від покупця</p>
+                    <img src="img/quote.png" alt="" class="review__quote" />
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review__top">
+                  <p class="review__name">Анна</p>
+                  <div class="rating">
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                  </div>
+                </div>
+                <div class="review__wrapper">
+                  <p class="review__text">
+                    Сандалії просто вау! М’яка устілка, чудова посадка, йду містом, наче хмаринкою. Стильно й зручно.
+                    Пройшла в них цілий день — жодного натяку на дискомфорт. Дуже задоволена покупкою!
+                  </p>
+                  <div class="review__bottom">
+                    <img src="img/cart.png" alt="" class="review__cart" />
+                    <p class="review__bottom-text">Відгук від покупця</p>
+                    <img src="img/quote.png" alt="" class="review__quote" />
+                  </div>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review__top">
+                  <p class="review__name">Марія</p>
+                  <div class="rating">
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star.png" alt="" />
+                    <img src="img/star-half.png" alt="" />
+                  </div>
+                </div>
+                <div class="review__wrapper">
+                  <p class="review__text">
+                    Взяла обидва кольори — не змогла обрати! Ідеально на літо, плюс крута акція на другу пару. Підійшли
+                    навіть під плаття, чого не очікувала від спортивного бренду. Просто супер!
+                  </p>
+                  <div class="review__bottom">
+                    <img src="img/cart.png" alt="" class="review__cart" />
+                    <p class="review__bottom-text">Відгук від покупця</p>
+                    <img src="img/quote.png" alt="" class="review__quote" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="add__review">Залишити відгук</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer__modal" id="modal-privacy">
+      <h6>Політика конфіденційності</h6>
+      <p>
+        Наш інтернет-магазин шанобливо ставиться до прав клієнта. Дотримується сувора конфіденційність при оформленні
+        замовлення. Дані надійно зберігаються та захищені від передачі даних.
+      </p>
+      <p>Згода на обробку даних клієнта виключно з метою надання послуг – розміщення замовлення на сайті.</p>
+      <p>
+        До персональних даних належить особиста інформація про клієнта: домашню адресу; ім'я прізвище по батькові;
+        відомості про народження; майновий, сімейний стан; особисті контакти (телефон, електронна пошта) та інші
+        відомості, перелічені у Законі "Про персональні дані".
+      </p>
+      <p>
+        Клієнт має право відмовитися від обробки персональних даних. Нами у разі гарантується видалення з сайту всіх
+        персональних даних у триденний термін у робочий час. Подібну відмову клієнт може оформити простим електронним
+        листом на адресу, вказану на сторінці нашого сайту.
+      </p>
+    </div>
+    <div class="footer__modal" id="modal-delivery">
+      <h6>Доставка і оплата</h6>
+      <p>
+        Доставка по Україні здійснюється за допомогою компанії «Нова Пошта» протягом 2-х днів з моменту замовлення.
+        Вартість та деталі такої доставки різняться залежно від регіону вашого проживання та розміру посилки.
+      </p>
+      <p>
+        Продавець не бере на себе жодних зобов'язань щодо відшкодування будь-яких збитків Клієнта, пов'язаних з
+        несвоєчасною доставкою замовлення, а також звільняється від будь-яких можливих штрафних санкцій.
+      </p>
+      <p>Клієнт, який отримав товар, повинен перевірити його щодо якості та кількості.</p>
+    </div>
+    <div class="footer__modal" id="modal-refusal">
+      <h6>ВІДМОВА ВІД ВІДПОВІДАЛЬНОСТІ</h6>
+      <p>
+        Інтернет-магазин залишає за собою право в будь-який час без повідомлення Клієнта вносити зміни щодо товарів,
+        матеріалів і послуг, що надаються на сайті.
+      </p>
+      <p>
+        Інтернет-магазин не несе відповідальності за будь-які збитки (включаючи моральну шкоду, шкоду від втрати
+        прибутку (упущена вигода), даних або від переривання ділової активності), що виник внаслідок використання або
+        неможливості використання даного сайту.
+      </p>
+    </div>
+    <div class="modal__review">
+      <div class="modal__review-wrapper">
+        <form class="active">
+          <input type="text" class="name__input" placeholder="Ім'я" required />
+          <!-- <input type="file" name="file" id="file" class="input__file">
+                  <label for="file" class="file">
+                      <div>
+                          <img src="" alt="">
+                      </div>
+                      <span>Додати фото</span> 
+                  </label> -->
+          <div class="modal__star-raiting">
+            Рейтинг:
+            <div class="modal__raiting"></div>
+          </div>
+          <textarea cols="30" rows="10" class="modal__area" placeholder="Ваш відгук..."></textarea>
+          <button type="submit" class="send">Надіслати</button>
+        </form>
+        <div class="send__window">
+          <div class="send__img">
+            <img src="img/mailing.png" alt="" class="modal__send-img" />
+          </div>
+          <div class="send__massage">
+            Дякуємо за ваш відгук, він буде відображений на сайті після перевірки модераторами
+          </div>
+        </div>
+        <a class="modal__close"><img src="img/close.png" alt="" /></a>
+      </div>
+    </div>
+    <!-- <script src="{{ $assets }}/js/libs/jquery.min.js"></script>
+      <script src="{{ $assets }}/js/libs/jquery.validate.min.js"></script>
+      <script src="{{ $assets }}/js/libs/validate-script.js"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="libs/aos.js"></script>
+    <script src="libs/jquery.fancybox.min.js"></script>
+    <script src="libs/owl.carousel.min.js"></script>
+    <script src="libs/jquery.raty.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main-um.js"></script>
+  </body>
+</html>
